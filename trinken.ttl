@@ -5,6 +5,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 tr:Trinken_Vokabular a skos:ConceptScheme ;
     skos:prefLabel "Trinken-Vokabular"@de ;
@@ -15,14 +16,14 @@ tr:Trinken_Vokabular a skos:ConceptScheme ;
     dct:description "Das Vokabular gruppiert Begriffe zu übergeordneten Konzepten, darunter Synonyme, partielle Synonyme und Unterbegriffe."@de ;
     dct:description "Das Vokabular wurde zur Verknüpfung von Wörterbuchartikeln als Linked Open Data entwickelt."@de ;
     dct:description "Als grundlegende Quelle diente die Konzeptsammlung in Openthausurus. Eine Ergänzung erfolgte durch historische Sachgruppenwörterbücher und GermaNet."@de ;
-    dct:description "Für weiterführende Informationen zur Entwicklung und Verwendung des Vokabulars siehe Klee, Anne (i.V.):"Automatisierte Methoden zur konzeptbasierten Vernetzung historischer Wörterbücher als Linked Open Data: Möglichkeiten und Herausforderungen". Dissertation."@de ;
+    dct:description "Für weiterführende Informationen zur Entwicklung und Verwendung des Vokabulars siehe Klee, Anne (i.V.): Automatisierte Methoden zur konzeptbasierten Vernetzung historischer Wörterbücher als Linked Open Data: Möglichkeiten und Herausforderungen. Dissertation."@de ;
     dct:created "2025-04-02"^^xsd:date ;
     dct:language "de" ;
     dct:subject "Kontrolliertes Vokabular", "Taxonomie", "Wortfeld", "Trinken", "Getränke", "Wörterbuchvernetzung", "Linked Open Data" ;
     dct:source "Openthesaurus (Stand: Januar 2025, CC-BY-SA 4.0)", <https://www.openthesaurus.de/> ;
     dct:rights <https://creativecommons.org/licenses/by/4.0/> .
 
-tr:Trinken a skos:Concept ; 
+tr:Trinken a skos:Concept ;
     skos:prefLabel "trinken"@de ;
     skos:topConceptOf tr:Trinken_Vokabular ;
     skos:narrower tr:Alkohol_trinken ;
@@ -32,12 +33,12 @@ tr:Trinken a skos:Concept ;
     skos:narrower tr:Geräuschvoll_trinken ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q876776> .
 
-tr:Durst a skos:Concept ; 
+tr:Durst a skos:Concept ;
     skos:prefLabel "Durst"@de ;
     skos:topConceptOf tr:Trinken_Vokabular ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q474187> .
 
-tr:Getränk a skos:Concept ; 
+tr:Getränk a skos:Concept ;
     skos:prefLabel "Getränk"@de ;
     skos:topConceptOf tr:Trinken_Vokabular ;
     skos:narrower tr:Kaltgetränk ;
@@ -54,12 +55,12 @@ tr:Langsam_kleine_Mengen_trinken a skos:Concept ;
     skos:prefLabel "langsam, in kleinen Mengen trinken"@de ;
     skos:inScheme tr:Trinken_Vokabular ;
     skos:broader tr:Trinken .
-    
+
 tr:Schnell_große_Mengen_trinken a skos:Concept ;
     skos:prefLabel "schnell, große Mengen trinken"@de ;
     skos:inScheme tr:Trinken_Vokabular ;
     skos:broader tr:Trinken .
-   
+
 tr:Austrinken a skos:Concept ;
     skos:prefLabel "austrinken"@de ;
     skos:inScheme tr:Trinken_Vokabular ;
@@ -6872,4 +6873,3 @@ tr:sense-pharisäer a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:pharisäer ;
 	ontolex:reference <https://www.wikidata.org/wiki/Q20674> ;
 	tree:isSenseInConcept tr:Alkoholhaltiges_Heißgetränk .
-
