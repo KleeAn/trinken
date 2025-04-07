@@ -1,4 +1,4 @@
-@prefix tr: <http://example.org/trinken-vokabular#> .
+@prefix tr: <http://kleean.github.io/trinken#> .
 @prefix tree: <https://w3id.org/lemon-tree#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
