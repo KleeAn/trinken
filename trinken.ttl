@@ -1,4 +1,4 @@
-@prefix tr: <http://kleean.github.io/trinken/trinken-vokabular/> .
+@prefix tr: <https://kleean.github.io/trinken/TrinkenVokabular/> .
 @prefix tree: <https://w3id.org/lemon-tree#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
@@ -12,7 +12,7 @@ tr:Trinken_Vokabular a skos:ConceptScheme ;
     dct:title "Konzeptvokabular zum semantischen Feld Trinken"@de ;
     dct:type "Vocabulary" ;
     dct:creator "Anne Klee" ;
-    dct:identifier <http://kleean.github.io/trinken/trinken-vokabular> ;
+    dct:identifier <https://kleean.github.io/trinken/TrinkenVokabular/> ;
     dct:description "Das Vokabular gruppiert Begriffe zu übergeordneten Konzepten, darunter Synonyme, partielle Synonyme und Unterbegriffe."@de ;
     dct:description "Das Vokabular wurde zur Verknüpfung von Wörterbuchartikeln als Linked Open Data entwickelt."@de ;
     dct:description "Als grundlegende Quelle diente die Konzeptsammlung in Openthausurus. Eine Ergänzung erfolgte durch historische Sachgruppenwörterbücher und GermaNet."@de ;
