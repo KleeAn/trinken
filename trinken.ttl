@@ -180,7 +180,6 @@ tr:Kaffee a skos:Concept ;
     skos:prefLabel "Kaffee"@de ;
     skos:inScheme tr:Trinken_Vokabular ;
     skos:broader tr:Alkoholfreies_Heißgetränk ;
-    skos:narrower tr:Ersatzkaffee ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q8486> .
 
 tr:Kakao a skos:Concept ;
@@ -192,7 +191,7 @@ tr:Kakao a skos:Concept ;
 tr:Ersatzkaffee a skos:Concept ;
     skos:prefLabel "Ersatzkaffee"@de ;
     skos:inScheme tr:Trinken_Vokabular ;
-    skos:broader tr:Kaffee ;
+    skos:broader tr:Alkoholfreies_Heißgetränk ;
     skos:exactMatch <https://www.wikidata.org/wiki/Q1147571> .
 
 tr:ausgetrocknet_sein a ontolex:LexicalEntry ;
@@ -4143,7 +4142,7 @@ tr:ersatzkaffee a ontolex:LexicalEntry ;
 tr:sense-ersatzkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:ersatzkaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Ersatzkaffee> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:kaffeeersatz a ontolex:LexicalEntry ;
 	rdfs:label "Kaffeeersatz"@de ;
@@ -4155,7 +4154,7 @@ tr:kaffeeersatz a ontolex:LexicalEntry ;
 tr:sense-kaffeeersatz a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:kaffeeersatz ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Kaffeeersatz> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:caro-kaffee a ontolex:LexicalEntry ;
 	rdfs:label "Caro-Kaffee"@de ;
@@ -4167,7 +4166,7 @@ tr:caro-kaffee a ontolex:LexicalEntry ;
 tr:sense-caro-kaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:caro-kaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Caro-Kaffee> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:fruchtkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Fruchtkaffee"@de ;
@@ -4179,7 +4178,7 @@ tr:fruchtkaffee a ontolex:LexicalEntry ;
 tr:sense-fruchtkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:fruchtkaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Fruchtkaffee> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:gerstenkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Gerstenkaffee"@de ;
@@ -4192,7 +4191,7 @@ tr:sense-gerstenkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:gerstenkaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Gerstenkaffee> ;
 	ontolex:reference <https://www.wikidata.org/wiki/Q3243039> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:getreidekaffee a ontolex:LexicalEntry ;
 	rdfs:label "Getreidekaffee"@de ;
@@ -4205,7 +4204,7 @@ tr:sense-getreidekaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:getreidekaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Getreidekaffee> ;
 	ontolex:reference <https://www.wikidata.org/wiki/Q3243039> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:kornkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Kornkaffee"@de ;
@@ -4217,7 +4216,7 @@ tr:kornkaffee a ontolex:LexicalEntry ;
 tr:sense-kornkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:kornkaffee ;
 	ontolex:reference <https://www.wikidata.org/wiki/Q3243039> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:malzkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Malzkaffee"@de ;
@@ -4230,7 +4229,7 @@ tr:sense-malzkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:malzkaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Malzkaffee> ;
 	ontolex:reference <https://www.wikidata.org/wiki/Q3243039> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:kinderkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Kinderkaffee"@de ;
@@ -4242,7 +4241,7 @@ tr:kinderkaffee a ontolex:LexicalEntry ;
 tr:sense-kinderkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:kinderkaffee ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Kinderkaffee> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:muckefuck a ontolex:LexicalEntry ;
 	rdfs:label "Muckefuck"@de ;
@@ -4254,7 +4253,7 @@ tr:muckefuck a ontolex:LexicalEntry ;
 tr:sense-muckefuck a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:muckefuck ;
 	ontolex:reference <https://www.openthesaurus.de/synonyme/Muckefuck> ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:zichorienkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Zichorienkaffee"@de ;
@@ -4265,7 +4264,7 @@ tr:zichorienkaffee a ontolex:LexicalEntry ;
 
 tr:sense-zichorienkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:zichorienkaffee ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:eichelkaffee a ontolex:LexicalEntry ;
 	rdfs:label "Eichelkaffee"@de ;
@@ -4276,7 +4275,7 @@ tr:eichelkaffee a ontolex:LexicalEntry ;
 
 tr:sense-eichelkaffee a ontolex:LexicalSense ;
 	ontolex:isSenseOf tr:eichelkaffee ;
-	tree:isSenseInConcept tr:Kaffeeersatz .
+	tree:isSenseInConcept tr:Ersatzkaffee .
 
 tr:tee a ontolex:LexicalEntry ;
 	rdfs:label "Tee"@de ;
