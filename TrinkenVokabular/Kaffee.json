@@ -4,14 +4,6 @@
   "prefLabel": {
     "de": "Kaffee"
   },
-  "narrower": [
-    {
-      "id": "https://kleean.github.io/trinken/TrinkenVokabular/Ersatzkaffee",
-      "prefLabel": {
-        "de": "Ersatzkaffee"
-      }
-    }
-  ],
   "broader": {
     "id": "https://kleean.github.io/trinken/TrinkenVokabular/Alkoholfreies_Heißgetränk",
     "prefLabel": {
